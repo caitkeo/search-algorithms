@@ -4,7 +4,7 @@
 
 
 // Your BSort function(s) go here
-void BSort(long data[], long size){
+void selectionSort(long data[], long size){
 	long i, j, min;
 	for(i = 0; i < size -1; i++){
 		min = i;

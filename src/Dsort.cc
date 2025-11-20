@@ -25,7 +25,7 @@ void heap(long data[], long size, long i){
 	}
 }
 
-void DSort(long data[], long size){
+void heapSort(long data[], long size){
 	for(long i = (size / 2) -1; i >= 0; i--){
 		heap(data, size, i);
 	}

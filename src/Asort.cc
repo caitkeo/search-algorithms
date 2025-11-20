@@ -4,7 +4,7 @@
 //inserts it into the correct spot realtive to the other values we have already sorted.
 #include "myheaders.h"
 
-void ASort(long data[], long size){
+void insertionSort(long data[], long size){
 	//define variables as data type long because we aren't sure of the size
 	long i, sort_element, j;
 	

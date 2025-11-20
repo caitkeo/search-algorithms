@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void ESort(long data[], const long n) {
+void countingSort(long data[], const long n) {
     long i;
 
 

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void FSort(long data[], long first, long last) {
+void quickSort(long data[], long first, long last) {
 	int lower = first+1, upper = last;
 	swap(data[first],data[(first+last)/2]);
 	long bound = data[first];
@@ -25,10 +25,10 @@ void FSort(long data[], long first, long last) {
 	
 	swap(data[upper],data[first]);
 	if (first < upper-1) {
-		FSort(data,first,upper-1);
+		quickSort(data,first,upper-1);
 	}
 	
 	if (upper+1 < last) {
-		FSort(data,upper+1,last);
+		quickSort(data,upper+1,last);
 	}
 }

@@ -16,14 +16,14 @@ void	swap(long& x, long& y);
 
 //functions for sorting algorithms
 //Insertion sort function
-void ASort(long data[], long size);
+void insertionSort(long data[], long size);
 //Selection sort function
-void BSort(long data[], long size);
+void selectionSort(long data[], long size);
 //Bubble sort function
-void CSort(long data[], long size);
+void bubbleSort(long data[], long size);
 //Heap sort function
-void DSort(long data[], long size);
+void heapSort(long data[], long size);
 //Quicksort function
-void ESort(long data[], long size);
+void countingSort(long data[], long size);
 //Counting sort function
-void FSort(long data[], long size);
+void quickSort(long data[], long size);
