@@ -1,0 +1,10 @@
+!SESSION 2025-11-18 18:30:15.220 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.linuxtools.rpm.ui.editor 2 127 2025-11-18 18:31:51.761
+!MESSAGE Return value of process was non-zero value 127. This may mean output is not accurate.
